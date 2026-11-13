@@ -5,6 +5,7 @@ dhcp    192.168.1.1
 michoacan
 gatewat 192.180.1.254
 dhcp    192.180.1.1
+correo  192.180.1.2
 
 leon
 gatewat 192.200.1.254
