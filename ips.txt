@@ -1,14 +1,12 @@
-chiapas dhcp
+chiapas
 gatewat 192.168.1.254
-dns     192.168.1.2
-ipv4    192.168.1.1
+dhcp    192.168.1.1
 
-michoacan dhcp
+michoacan
 gatewat 192.180.1.254
-dns     192.180.1.2
-ipv4    192.180.1.1
+dhcp    192.180.1.1
 
-leon dhcp
+leon
 gatewat 192.200.1.254
 dns     192.200.1.2
-ipv4    192.200.1.1
+dhcp    192.200.1.1
