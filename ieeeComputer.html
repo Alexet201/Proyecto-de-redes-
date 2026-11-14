@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>IEEE Computer Society - Enlaces y Códigos QR</title>
+    <style>
+        body {
+            background-color: #0B132B;
+            color: #F8FAFC;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Barra superior */
+        .header {
+            background-color: #002855;
+            border-bottom: 2px solid #00B5E2;
+            padding: 15px 30px;
+        }
+        .badge-logo {
+            background-color: #00629B;
+            color: #FFFFFF;
+            padding: 8px 12px;
+            font-weight: bold;
+            font-size: 16px;
+            border: 1px solid #00B5E2;
+        }
+        .nav-link {
+            color: #CBD5E1;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .btn-oficial {
+            background-color: #00629B;
+            color: #FFFFFF;
+            padding: 8px 14px;
+            text-decoration: none;
+            border: 1px solid #00B5E2;
+            font-size: 13px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+        /* Contenedor principal */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .pill {
+            background-color: #162447;
+            border: 1px solid #00B5E2;
+            color: #00B5E2;
+            padding: 6px 14px;
+            font-size: 12px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .titulo-principal {
+            font-size: 32px;
+            color: #FFFFFF;
+            margin: 15px 0;
+        }
+        .texto-cyan {
+            color: #00B5E2;
+        }
+        /* Tarjetas de información y QR */
+        .card {
+            background-color: #1C2541;
+            border: 1px solid #00629B;
+            padding: 20px;
+            vertical-align: top;
+        }
+        .card-borde-azul {
+            border-left: 5px solid #00629B;
+        }
+        .card-borde-cyan {
+            border-left: 5px solid #00B5E2;
+        }
+        .card-titulo {
+            color: #FFFFFF;
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .card-texto {
+            color: #CBD5E1;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .qr-tag {
+            background-color: #002855;
+            color: #00B5E2;
+            padding: 4px 8px;
+            font-size: 11px;
+            font-weight: bold;
+            border: 1px solid #00B5E2;
+        }
+        .qr-box {
+            background-color: #FFFFFF;
+            color: #0B132B;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: center;
+            border: 2px solid #00B5E2;
+        }
+        .btn-accion {
+            display: block;
+            background-color: #00629B;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            border: 1px solid #00B5E2;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <table width="100%" cellpadding="0" cellspacing="0" class="header">
+        <tr>
+            <td align="left">
+                <span class="badge-logo">[&lt;/&gt;] IEEE CS</span>
+                <span style="margin-left: 10px; font-size: 18px; font-weight: bold; color: #FFFFFF;">
+                    IEEE Computer Society
+                </span>
+                <span style="color: #00B5E2; font-size: 12px; display: block; margin-top: 4px;">
+                    STUDENT BRANCH
+                </span>
+            </td>
+            <td align="right">
+                <a href="#about" class="nav-link">¿Qué es?</a>
+                <a href="#qrs" class="nav-link">Códigos QR</a>
+                <a href="https://computer.org" class="btn-oficial">Sitio Oficial &rarr;</a>
+            </td>
+        </tr>
+    </table>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+
+        <!-- HERO -->
+        <div id="about" align="center" style="padding: 20px 0;">
+            <div class="pill">&#9679; Rama Estudiantil IEEE Computer Society</div>
+            <h1 class="titulo-principal">
+                Conecta con la tecnología y la <span class="texto-cyan">Innovación</span>
+            </h1>
+        </div>
+
+        <!-- TARJETAS INFORMATIVAS (2 COLUMNAS) -->
+        <table width="100%" cellspacing="15" cellpadding="0">
+            <tr>
+                <td width="50%" class="card card-borde-azul">
+                    <h3 class="card-titulo">&#127760; ¿Qué es la IEEE?</h3>
+                    <p class="card-texto">
+                        Es la organización profesional técnica más grande del mundo dedicada al avance de la tecnología en beneficio de la humanidad. Impulsa estándares globales, investigaciones y desarrollo en ingeniería y ciencia.
+                    </p>
+                </td>
+                <td width="50%" class="card card-borde-cyan">
+                    <h3 class="card-titulo">&#128187; ¿Qué es el Capítulo de Computer?</h3>
+                    <p class="card-texto">
+                        Es la sociedad técnica líder dentro de la IEEE enfocada en ciencias de la computación, informática y software. Agrupa a estudiantes y profesionales para impulsar eventos, talleres y proyectos tecnológicos.
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <p align="center" style="color: #CBD5E1; font-size: 15px; margin: 20px 0;">
+            Escanea los siguientes códigos QR para acceder a nuestros registros, redes sociales y recursos del capítulo.
+        </p>
+
+        <!-- TARJETAS DE CÓDIGOS QR (3 COLUMNAS) -->
+        <table id="qrs" width="100%" cellspacing="15" cellpadding="0">
+            <tr>
+                <!-- QR 01 -->
+                <td width="33%" class="card">
+                    <span class="qr-tag">QR 01</span>
+                    <h3 class="card-titulo" style="margin-top: 12px;">Registro y Membresía</h3>
+                    <p class="card-texto">
+                        Escanea para registrarte en nuestras actividades o unirte como miembro oficial de la rama estudiantil.
+                    </p>
+                    <div class="qr-box">
+                        <img src="qr1.png" alt="QR Registro al Evento" width="130" height="130"><br>
+                        <small><b>qr1.png</b></small>
+                    </div>
+                    <a href="#registro" class="btn-accion">Abrir Enlace</a>
+                </td>
+
+                <!-- QR 02 -->
+                <td width="33%" class="card">
+                    <span class="qr-tag">QR 02</span>
+                    <h3 class="card-titulo" style="margin-top: 12px;">Comunidad &amp; Redes</h3>
+                    <p class="card-texto">
+                        Síguenos en nuestras redes oficiales y entérate de todas las noticias y eventos del capítulo.
+                    </p>
+                    <div class="qr-box">
+                        <img src="qr2.png" alt="QR Redes Sociales" width="130" height="130"><br>
+                        <small><b>qr2.png</b></small>
+                    </div>
+                    <a href="#redes" class="btn-accion">Abrir Enlace</a>
+                </td>
+
+                <!-- QR 03 -->
+                <td width="33%" class="card">
+                    <span class="qr-tag">QR 03</span>
+                    <h3 class="card-titulo" style="margin-top: 12px;">Recursos &amp; Materiales</h3>
+                    <p class="card-texto">
+                        Accede a presentaciones de talleres, repositorios de GitHub, archivos y documentación.
+                    </p>
+                    <div class="qr-box">
+                        <img src="qr3.png" alt="QR Recursos y Materiales" width="130" height="130"><br>
+                        <small><b>qr3.png</b></small>
+                    </div>
+                    <a href="#recursos" class="btn-accion">Abrir Enlace</a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
