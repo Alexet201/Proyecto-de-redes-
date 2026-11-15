@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>IEEE Student Branch - Portal Principal</title>
+    <style>
+        body { background-color: #0B132B; color: #F8FAFC; font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+        .header { background-color: #002855; border-bottom: 2px solid #00B5E2; padding: 15px 30px; }
+        .badge-logo { background-color: #00629B; color: #FFFFFF; padding: 8px 12px; font-weight: bold; font-size: 16px; border: 1px solid #00B5E2; }
+        .nav-link { color: #CBD5E1; text-decoration: none; margin-left: 15px; font-size: 14px; font-weight: bold; }
+        .btn-oficial { background-color: #00629B; color: #FFFFFF; padding: 8px 14px; text-decoration: none; border: 1px solid #00B5E2; font-size: 13px; font-weight: bold; margin-left: 15px; }
+        .container { width: 90%; max-width: 1000px; margin: 0 auto; padding: 20px 0; }
+        .pill { background-color: #162447; border: 1px solid #00B5E2; color: #00B5E2; padding: 6px 14px; font-size: 12px; font-weight: bold; display: inline-block; }
+        .titulo-principal { font-size: 32px; color: #FFFFFF; margin: 15px 0; }
+        .texto-cyan { color: #00B5E2; }
+        .card { background-color: #1C2541; border: 1px solid #00629B; padding: 20px; vertical-align: top; }
+        .card-borde-azul { border-left: 5px solid #00629B; }
+        .card-borde-cyan { border-left: 5px solid #00B5E2; }
+        .card-titulo { color: #FFFFFF; font-size: 18px; margin-top: 0; margin-bottom: 10px; }
+        .card-texto { color: #CBD5E1; font-size: 14px; line-height: 1.5; }
+        .cap-tag { background-color: #002855; color: #00B5E2; padding: 4px 8px; font-size: 11px; font-weight: bold; border: 1px solid #00B5E2; }
+        .icon-box { background-color: #162447; color: #00B5E2; padding: 15px; margin: 15px 0; text-align: center; border: 1px solid #00629B; font-size: 24px; font-weight: bold; }
+        .btn-accion { display: block; background-color: #00629B; color: #FFFFFF; text-align: center; padding: 10px; text-decoration: none; font-weight: bold; font-size: 14px; border: 1px solid #00B5E2; }
+    </style>
+</head>
+<body>
+    <table width="100%" cellpadding="0" cellspacing="0" class="header">
+        <tr>
+            <td align="left">
+                <span class="badge-logo">[IEEE] RAMA</span>
+                <span style="margin-left: 10px; font-size: 18px; font-weight: bold; color: #FFFFFF;">IEEE Student Branch</span>
+                <span style="color: #00B5E2; font-size: 12px; display: block; margin-top: 4px;">PORTAL GENERAL DE CAP&Iacute;TULOS T&Eacute;CNICOS</span>
+            </td>
+            <td align="right">
+                <a href="#about" class="nav-link">&iquest;Qu&eacute; es?</a>
+                <a href="#capitulos" class="nav-link">Cap&iacute;tulos</a>
+                <a href="https://www.ieee.org" class="btn-oficial">Sitio Oficial &rarr;</a>
+            </td>
+        </tr>
+    </table>
+    <div class="container">
+        <div id="about" align="center" style="padding: 20px 0;">
+            <div class="pill">&#9679; Rama Estudiantil IEEE</div>
+            <h1 class="titulo-principal">Avanzando la Tecnolog&iacute;a en Beneficio de la <span class="texto-cyan">Humanidad</span></h1>
+        </div>
+        <table width="100%" cellspacing="15" cellpadding="0">
+            <tr>
+                <td width="50%" class="card card-borde-azul">
+                    <h3 class="card-titulo">&#127760; &iquest;Qu&eacute; es la IEEE?</h3>
+                    <p class="card-texto">El Instituto de Ingenieros El&eacute;ctricos y Electr&oacute;nicos (IEEE) es la organizaci&oacute;n profesional t&eacute;cnica m&aacute;s grande del mundo dedicada al avance de la tecnolog&iacute;a, la estandarizaci&oacute;n global y la investigaci&oacute;n cient&iacute;fica.</p>
+                </td>
+                <td width="50%" class="card card-borde-cyan">
+                    <h3 class="card-titulo">&#127891; Nuestra Rama Estudiantil</h3>
+                    <p class="card-texto">Somos una comunidad universitaria dedicada a impulsar el desarrollo profesional, t&eacute;cnico y acad&eacute;mico mediante talleres, conferencias y proyectos en diversas ramas de la ingenier&iacute;a.</p>
+                </td>
+            </tr>
+        </table>
+        <p align="center" style="color: #CBD5E1; font-size: 15px; margin: 20px 0;">Selecciona uno de nuestros cap&iacute;tulos estudiantiles para conocer sus actividades, recursos y c&oacute;digos QR:</p>
+        <table id="capitulos" width="100%" cellspacing="15" cellpadding="0">
+            <tr>
+                <td width="33%" class="card">
+                    <span class="cap-tag">CAP&Iacute;TULO 01</span>
+                    <div class="icon-box">[&lt;/&gt;] CS</div>
+                    <h3 class="card-titulo">IEEE Computer Society</h3>
+                    <p class="card-texto">Enfocado en ciencias de la computaci&oacute;n, desarrollo de software, inteligencia artificial, redes y ciberseguridad.</p><br>
+                    <a href="ieeeComputer.html" class="btn-accion">Ir a IEEE Computer &rarr;</a>
+                </td>
+                <td width="33%" class="card">
+                    <span class="cap-tag">CAP&Iacute;TULO 02</span>
+                    <div class="icon-box">[+] EMBS</div>
+                    <h3 class="card-titulo">IEEE EMBS</h3>
+                    <p class="card-texto">Engineering in Medicine and Biology Society. Dedicado a la ingenier&iacute;a biom&eacute;dica, dispositivos m&eacute;dicos y tecnolog&iacute;a en salud.</p><br>
+                    <a href="ieeeEMBS.html" class="btn-accion">Ir a IEEE EMBS &rarr;</a>
+                </td>
+                <td width="33%" class="card">
+                    <span class="cap-tag">CAP&Iacute;TULO 03</span>
+                    <div class="icon-box">[*] IPS</div>
+                    <h3 class="card-titulo">IEEE Photonics Society</h3>
+                    <p class="card-texto">Especializado en la ciencia y aplicaci&oacute;n de la luz, l&aacute;seres, fibra &oacute;ptica, sensores y comunicaciones &oacute;pticas.</p><br>
+                    <a href="ieeePhotonics.html" class="btn-accion">Ir a IEEE Photonics &rarr;</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
