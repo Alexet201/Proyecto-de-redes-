@@ -1,15 +1,15 @@
-Bocasucia
+Bocasucia 10.0.0.1
 gatewat 192.168.1.254
 DHCP    192.168.1.1
 WEB     192.168.1.2
 FTP     192.168.1.3 (user and password "cisco")
 
-Cañon Nublado
+Cañon Nublado 10.0.0.2
 gatewat 192.168.3.254
 DHCP    192.168.3.1
 CORREO  192.168.3.2
 
-Ciudad de Lagrimas
+Ciudad de Lagrimas 10.0.0.3
 gatewat 192.168.2.254
 DHCP    192.168.2.1
 DNS     192.168.2.2
