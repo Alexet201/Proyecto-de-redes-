@@ -1,13 +1,13 @@
 Bocasucia 10.0.0.1
 gatewat 192.168.1.254
 DHCP    192.168.1.1
-WEB     192.168.1.2
+WEB     192.168.1.2 (pagina ieeecomputer)
 FTP     192.168.1.3 (user and password "cisco")
 
 Cañon Nublado 10.0.0.2
 gatewat 192.168.3.254
 DHCP    192.168.3.1
-CORREO  192.168.3.2
+CORREO  192.168.3.2 (pepe, juan password 1234 @alumnos.com)
 
 Ciudad de Lagrimas 10.0.0.3
 gatewat 192.168.2.254
