@@ -7,18 +7,26 @@ FTP     192.168.1.3 (user and password "cisco")
 Cañon Nublado 10.0.0.2
 gatewat 192.168.3.254
 DHCP    192.168.3.1
-CORREO  192.168.3.2 (pepe, juan password 1234 @alumnos.com)
+CORREO  192.168.3.2 (pepe | juan password 1234 @alumnos.com)
 
 Ciudad de Lagrimas 10.0.0.3
 gatewat 192.168.2.254
 DHCP    192.168.2.1
 DNS     192.168.2.2
+IoT     192.168.2.3 (pagina smarthome)
+
+Jardin de la Reina 10.0.0.4
+gateway 192.168.4.254
+DHCP    192.168.4.1
 
 [Las ip de los dispositivos configurados automaticamente empiezan a partir del 10 ej: 192.168.2.10]
 
-IoT: [usuario = contraseña]
-Bocasucia
+IoT [usuario = contraseña] y Telefonia
+Bocasucia | 100#
   Casa1 - 5678
   Casa2 - 8765
-Cañon Nublado - 4321
-Ciudad de Lagrimas - 1234
+Cañon Nublado - 4321 | 200#
+Ciudad de Lagrimas - 1234 | 300#
+Jardin de la Reina - dama_blanca | 400#
+
+[El ultimo # es el numero del telefono]
