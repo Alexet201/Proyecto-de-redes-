@@ -15,3 +15,10 @@ DHCP    192.168.2.1
 DNS     192.168.2.2
 
 [Las ip de los dispositivos configurados automaticamente empiezan a partir del 10 ej: 192.168.2.10]
+
+IoT: [usuario = contraseña]
+Bocasucia
+  Casa1 - 5678
+  Casa2 - 8765
+Cañon Nublado - 4321
+Ciudad de Lagrimas - 1234
